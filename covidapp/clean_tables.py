@@ -44,3 +44,15 @@ def connect(params_dic):
         sys.exit(1) 
     print("Connection successful")
     return conn
+
+
+
+
+
+conn = connect(param_dic)
+execute_query(conn, "DELETE FROM PUBLIC.vacunacion")
+execute_query(conn, "DELETE FROM PUBLIC.contagiados")
+execute_query(conn, "DELETE FROM PUBLIC.fallecidos")
+execute_query(conn, "DELETE FROM PUBLIC.poblacion")
+execute_query(conn, "DELETE FROM PUBLIC.grupo_etario;DELETE FROM PUBLIC.vacuna;DELETE FROM PUBLIC.genero;DELETE FROM PUBLIC.tipo_contagio;")
+conn.close()
