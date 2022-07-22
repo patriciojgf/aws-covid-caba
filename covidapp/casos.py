@@ -141,8 +141,6 @@ df_contagios=df_contagios.set_index('fecha')
 df_fallecidos=df_fallecidos.set_index('fecha')
  
 conn = connect(param_dic)
-execute_query(conn, "DELETE FROM PUBLIC.contagiados")
 copy_from_stringio(conn,df_contagios,'contagiados')
-execute_query(conn, "DELETE FROM PUBLIC.fallecidos")
 copy_from_stringio(conn,df_fallecidos,'fallecidos')
 conn.close()
