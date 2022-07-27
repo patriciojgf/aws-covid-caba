@@ -28,6 +28,7 @@
 - [Bastion Host](#bastion-host)
 - [Step Functions](#step-functions)
 - [Log de ECS Fargate](#log-de-ecs-fargate)
+- [Presupuesto minimo estimado](#presupuesto-minimo-estimado)
 ## Contenido
 
 ```text
@@ -119,3 +120,7 @@ AWS-COVID-CABA/
 
 ## Log de ECS Fargate
 - ![logs](/infra/img/logs.png)
+
+
+## Presupuesto minimo estimado
+- ![presupuesto](/infra/img/presupuesto.png)
