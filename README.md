@@ -42,6 +42,7 @@ AWS-COVID-CABA/
 │   ├── Dockerfile
 │   ├── requirements.txt
 └── infra/
+|   ├── aws-covid-infra.pdf
 |   ├── mystatemachine.json
 │   └── img/
 └── lambda/
