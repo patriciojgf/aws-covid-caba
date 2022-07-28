@@ -8,13 +8,12 @@ from io import StringIO
 
 param_dic = {
     #"host"      : "localhost",
-    "host"      : "cabacovid.cs4nf40vsq8e.us-east-1.rds.amazonaws.com",
+    "host"      : "-",
     "port"      : "5432",
     "database"  : "cabacovid",
-    "user"      : "covid_app",
-    "password"  : "covid_app"
+    "user"      : "-",
+    "password"  : "-"
 }
-
 def execute_query(conn, query):
     """ Execute a single query """
 
