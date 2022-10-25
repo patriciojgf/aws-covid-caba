@@ -9,9 +9,6 @@
     El proyecto toma datos publicos de estadisticas de la ciudad de Buenos Aires y del ministerio de saludo de la nación, los procesa para obtener estadisticas de la pandemia de COVID-19 y genera tableros para ser visualizados en una pagina pagina web.
     <br>
     <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
-    ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
 </p>
 
